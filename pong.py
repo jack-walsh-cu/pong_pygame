@@ -39,7 +39,7 @@ while running:
     if keys[pygame.K_DOWN] and player_paddle.bottom < HEIGHT:
         player_paddle.y += 5
 
-    # Update CPU paddle position (basic AI)
+    # Update CPU paddle position
     if cpu_paddle.centery < ball.centery:
         cpu_paddle.y += 3
     elif cpu_paddle.centery > ball.centery:
